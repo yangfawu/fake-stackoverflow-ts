@@ -1,0 +1,13 @@
+{
+    "watch": [
+        "src/",
+        "tsconfig.json",
+        ".env",
+        "*.pem"
+    ],
+    "ext": "ts",
+    "ignore": [
+        "src/db-*.ts"
+    ],
+    "exec": "ts-node src/server.ts"
+}
